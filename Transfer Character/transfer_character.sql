@@ -1,4 +1,4 @@
-ALTER PROCEDURE [dbo].[Transfer_Character] (
+CREATE PROCEDURE [dbo].[Transfer_Character] (
 	@OriginCharacterIdx bigint,
 	@TargetUserNum bigint
 )
